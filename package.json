@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build" : "babel index.js --out-file index-compiled.js"
+    "build" : "babel src --out-dir compiled",
+    "start" : "node compiled/index-compiled.js"
   },
   "author": "",
   "license": "",
