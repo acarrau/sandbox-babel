@@ -5,5 +5,5 @@ var moduleIdToScriptMap = {
 
 function runModule(moduleId) {
     var modulePath = "modules/" + moduleIdToScriptMap[moduleId]
-    $("#code").load(modulePath);
+    $("#script-source").attr("src", modulePath);
 }
