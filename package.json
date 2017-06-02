@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "build": "babel modules --out-dir transpiled"
+    "build": "babel modules --out-dir transpiled",
+    "watch": "babel --watch modules --out-dir transpiled"
   },
   "author": "",
   "license": "",
