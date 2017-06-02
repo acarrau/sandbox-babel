@@ -16,4 +16,4 @@ node_modules
 .vscode
 
 # Output files
-dist
+transpiled
