@@ -1,6 +1,13 @@
 function runModule(modulePath) {
     $("#console").html("");
+    
+    // Show original code in iframe
     $("#script-source").attr("src", "modules/" + modulePath);
+
+    // Actually execute module's transpiled code
+    var script = document.createElement("script")
+    script.setAttribute('src', "transpiled/" + modulePath);
+    document.getElementsByTagName('head')[0].appendChild(script);        
 }
 
 // Redefine the global console.log function to 
