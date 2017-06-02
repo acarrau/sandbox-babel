@@ -1,10 +1,4 @@
-var moduleIdToScriptMap = {
-    1: "1-scopes.js",
-    2: "2-decorators.js"
-}
-
-function runModule(moduleId) {
+function runModule(modulePath) {
     $("#console").html("");
-    var modulePath = "modules/" + moduleIdToScriptMap[moduleId]
     $("#script-source").attr("src", modulePath);
 }
