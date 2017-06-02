@@ -4,6 +4,7 @@ var moduleIdToScriptMap = {
 }
 
 function runModule(moduleId) {
+    $("#console").html("");
     var modulePath = "modules/" + moduleIdToScriptMap[moduleId]
     $("#script-source").attr("src", modulePath);
 }
