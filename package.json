@@ -2,10 +2,8 @@
   "name": "sandbox-babel",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "build" : "babel src --out-dir dist",
-    "start" : "node dist/index.js"
+    "build": "babel src --out-dir dist"
   },
   "author": "",
   "license": "",
